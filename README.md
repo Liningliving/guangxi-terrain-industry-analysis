@@ -107,6 +107,4 @@ This project was completed by a team of four students as part of a Natural Resou
 https://dilipkumar.medium.com/multicollinearity-and-regularization-in-regression-models-25c24b9107a7\
 https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/\
 [2] Technical specification for basic statistical analysis of national geographic conditions information
-北京市标准
-#   g u a n g x i - t e r r a i n - i n d u s t r y - a n a l y s i s  
- 
+https://ghzrzyw.beijing.gov.cn/biaozhunguanli/bztg/201912/P020191213659390586371.pdf
