@@ -11,7 +11,7 @@ This project explores the relationship between the diverse topography of Guangxi
 
 **Boundary Shapefile**: Municipal boundaries were used as masks to clip city‑level DEMs and derive elevation statistics. Guangxi and its prefectural-level cities' boundary shapefile data were downloaded from the Geospatial Data Cloud.
 
-**Slope & Relief**: From the DEM we derived slope and relief. Relief was calculated in a 17 × 17 pixel (≈1.53 km²) window as the difference between the maximum and minimum elevations, following methods recommended for terrain analysis[1].
+**Slope & Relief**: From the DEM we derived slope and relief. Relief was calculated in a 17 × 17 pixel (≈1.53 * 1.53 km²) window as the difference between the maximum and minimum elevations, following methods recommended for terrain analysis[1].
 
 **Landform Classification**: We classified the above relief raster cell as plain, tableland, hill or mountain according to the national 1:1 million geomorphologic mapping standard. Cells with relief < 30 m and elevation < 200 m were labelled plain; relief < 30 m and elevation ≥ 200 m were tableland; relief between 30 m and 200 m were hill; and relief > 200 m were mountain. The area ratios of these landforms were computed for each city.
 <p align="center">
