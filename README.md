@@ -7,12 +7,12 @@ This project explores the relationship between the diverse topography of Guangxi
 \
 **Motivation**: Topography affects soil development, climate and accessibility, which in turn shape agricultural suitability. Quantifying these relationships can help policymakers tailor development strategies to local conditions. We also aimed to practice applying machine‑learning methods to geographic data.
 ## Data Sources
-**DEM**: 90 m resolution digital elevation model of Guangxi obtained from the Geospatial Data Cloud. The DEM data are projected in the CGCS2000/Gauss–Krüger Zone 19 coordinate system, following national mapping specifications. In order to get the DEM of Guangxi province, we downloaded four DEMs that contain parts of Guangxi, concatenation them, and in the end, they were clipped by city boundaries.\
-\
-**Boundary Shapefile**: Municipal boundaries were used as masks to clip city‑level DEMs and derive elevation statistics. Guangxi and its prefectural-level cities' boundary shapefile data were downloaded from the Geospatial Data Cloud.\
-\
-**Slope & Relief**: From the DEM we derived slope and relief. Relief was calculated in a 17 × 17 pixel (≈1.53 km²) window as the difference between the maximum and minimum elevations, following methods recommended for terrain analysis[1].\
-\
+**DEM**: 90 m resolution digital elevation model of Guangxi obtained from the Geospatial Data Cloud. The DEM data are projected in the CGCS2000/Gauss–Krüger Zone 19 coordinate system, following national mapping specifications. In order to get the DEM of Guangxi province, we downloaded four DEMs that contain parts of Guangxi, concatenation them, and in the end, they were clipped by city boundaries.
+
+**Boundary Shapefile**: Municipal boundaries were used as masks to clip city‑level DEMs and derive elevation statistics. Guangxi and its prefectural-level cities' boundary shapefile data were downloaded from the Geospatial Data Cloud.
+
+**Slope & Relief**: From the DEM we derived slope and relief. Relief was calculated in a 17 × 17 pixel (≈1.53 km²) window as the difference between the maximum and minimum elevations, following methods recommended for terrain analysis[1].
+
 **Landform Classification**: We classified the above relief raster cell as plain, tableland, hill or mountain according to the national 1:1 million geomorphologic mapping standard. Cells with relief < 30 m and elevation < 200 m were labelled plain; relief < 30 m and elevation ≥ 200 m were tableland; relief between 30 m and 200 m were hill; and relief > 200 m were mountain. The area ratios of these landforms were computed for each city.
 <p align="center">
   <img src="maps/Spatial_Distribution_Map_of_Slope_Classes_in_Guangxi.jpg" alt="Spatial Distribution Map of Slope Classes in Guangxi" width="45%" />
@@ -105,6 +105,6 @@ This project was completed by a team of four students as part of a Natural Resou
 ## Reference
 [1] Multicollinearity and Regularization in Regression Models | by Dilip Kumar | Medium
 https://dilipkumar.medium.com/multicollinearity-and-regularization-in-regression-models-25c24b9107a7\
-https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/\
+https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/
 [2] Technical specification for basic statistical analysis of national geographic conditions information
 https://ghzrzyw.beijing.gov.cn/biaozhunguanli/bztg/201912/P020191213659390586371.pdf
