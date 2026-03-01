@@ -1,0 +1,7 @@
+# Excel lock files
+~$*
+*.xlsx~
+*.xls~
+
+# Office temp files
+~$*
