@@ -106,5 +106,6 @@ This project was completed by a team of four students as part of a Natural Resou
 [1] Multicollinearity and Regularization in Regression Models | by Dilip Kumar | Medium
 https://dilipkumar.medium.com/multicollinearity-and-regularization-in-regression-models-25c24b9107a7\
 https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/
+
 [2] Technical specification for basic statistical analysis of national geographic conditions information
 https://ghzrzyw.beijing.gov.cn/biaozhunguanli/bztg/201912/P020191213659390586371.pdf
